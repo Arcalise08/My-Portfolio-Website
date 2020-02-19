@@ -24,7 +24,7 @@
   <div id="block1">
 
   </div>
-<title>hi there.</title>
+
 <header class="page-header">
 
     <img src="img/banner.png" alt="logo" class="page-header__item headerpic" >
@@ -61,18 +61,40 @@
     You can still ask me things though!
 </h2>
 
-<label for="Ask">
-  <p style="margin-left: 125px;"> 
-    Ask me below. I'm pretty sure i know the answer!
-  </p>
-</label>
 
-<form action="http://www.google.com/search" method="get">
-    <input class="google" type="text" id="Ask" name="q" required>
-    <button type="submit" for="Ask">Ask</button>
-  </form>
-</div>
-  
+
+<script>
+function required()
+{
+  var empt = document.forms["googleform"]["q"].value;
+    if (empt == "")
+  {
+    document.googleform.reset();
+    
+      
+    return false;
+  }
+    else 
+  {
+    document.googleform.submit();
+    document.googleform.reset();
+    return true; 
+  }
+}
+
+  </script>
+  <div class="googlecontainer">
+    <p>
+      Ask me anything!
+    </p>
+    <form action="http://www.google.com/search"  name="googleform" target="_blank" method="get">
+      <label for="Ask">
+      </label>
+        <input class="google" type="text" id="Ask" name="q">
+        <button type="button" for="Ask" onclick="required()" >Ask</button>
+    </form>
+  </div>
+</div>  
 
   <footer>
     <p>You can also find me at</p>

@@ -1,10 +1,18 @@
 /*
 Colors used
 
-Text Color (Dark Gray): #2b2b2b;
-Primary Color (Purple): #357b70;
-Secondary Color (Orange): #e0b354;
- */
+/*colors used
+  --primary-color:#ff8a7f;
+  --secondary-color: #9e17ff;
+  --footer-color:#9e17ff;
+  --link-color: #00f0f8;
+  --selected-link-color: #03a9af;
+  --item-active-color: #489c79;
+  --grid-background-color: #17d8ff ;
+  --buton-background-color: #17d8ff;
+  --buton-text-color:#ffffff;
+
+  */
 :root {
   --primary-color:#ff8a7f;
   --secondary-color: #9e17ff;
