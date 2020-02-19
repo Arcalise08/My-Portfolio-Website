@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+
+
+<html>
+  <head> 
+
+    <meta charset="utf-8">
+    <title>Kyles Website</title> 
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <meta name="description" content="My First Website">
+    <script type="text/javascript"> 
+      function nolinked() {
+        document.getElementById('1').style.visibility="visible";
+        }
+    </script>
+</head>
+
+<body>
+
+  <header class="page-header">
+
+    <img src="img/banner.png" alt="logo" class="page-header__item headerpic" >
+
+    <nav class="main-navigation page-header__item"> 
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item--active">About</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+      </ul>
+    </nav>
+
+</header>
+
+
+<div class="aboutme">
+  <div class="aboutme__item">
+    <h1>
+        About Me
+    </h1>
+    <p>
+        I'm pretty boring. Not much to tell and not much to show just yet. Still learning. 
+    </p>
+  </div>
+
+
+  <h1>Get my CV</h1>
+
+  <p>This page is about myself. This is what I enjoy doing:</p>
+    <ul class="aboutme__item">
+      <li>Front-end development</li>
+      <li>Back-end development</li>
+      <li>Test driven development</li>
+      <li>Climbing</li>
+  </ul>
+
+  <a href="files/cv.pdf" id="downloadlinkcv" class="button" download>Download my CV</a>
+
+  <img class="sun" src="img/sun.svg" alt="">
+
+  <img class="cloud" src="img/cloud.svg" alt="">
+
+  <img class="building" src="img/building.svg" alt="">
+
+
+</div>
+
+
+
+
+<footer>
+  <p>You can also find me at</p>
+  <div class="social-media">
+  <form action="https://twitter.com/Arcalise08" style="display: inline;">
+    <input type="image" height="50" width="50" src="img/twitter.svg" alt="My Twitter" >
+  </form>
+  <form action="https://github.com/Arcalise08" style="display: inline;">
+    <input type="image" height="50" width="50" src="img/github.svg" alt="My Github" >
+  </form>
+<!-- Update with linkedin info when profile is made -->
+      <input type="image" height="50" width="50" onclick="nolinked();" src="img/linkedin.svg" alt="My Linkedin"> 
+  
+    <p id="1" style="color: firebrick;visibility: hidden;" >
+        Linkedin is coming soon.
+    </p>
+  </div>
+</footer>
+<script src="js/tota11y.min.js"></script>
+</body>
