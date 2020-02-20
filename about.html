@@ -40,6 +40,39 @@
       </ul>
     </nav>
 
+    <script>
+
+      function mobilenavmenu() {
+        var x = document.getElementById("mobilenav");
+        if (x.style.display === "flex") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "flex";
+        }
+      }
+      </script>
+      
+        <nav class="mobile-navigation" id="mobilenav"> 
+          <ul role="menubar" class="mobile-nav-list">
+            <li role="presentation" class="mobile-flex-li">
+              <a href="index.html" role="menuitem" class="mobile-nav__item mobile" >Home</a>
+            </li>
+            <li role="presentation" class="mobile-flex-li">
+              <a href="about.html" role="menuitem" class="mobile-nav__item -nav__item--active" >About</a>
+            </li>
+            <li role="presentation" class="mobile-flex-li">
+              <a href="contact.html" role="menuitem" class="mobile-nav__item">Contact</a>
+            </li>
+            <li role="presentation" class="mobile-flex-li">
+              <a href="work.html" role="menuitem" class=" mobile-nav__item">Work</a>
+            </li>
+          </ul>
+        </nav>
+        
+      
+      <input type="image" src="img/navbuttonmobile.svg" alt="MobileMenuButton" id="mobile-nav-button" onclick="mobilenavmenu()">
+
+
 </header>
 
 
