@@ -248,9 +248,12 @@ footer {
   list-style-type: none;
 }
 
-
 /*Work*/
 
+.grid__item {
+  display: inline-block;
+  width: 33%;
+}
 .grid {
   display: -ms-grid;
 
