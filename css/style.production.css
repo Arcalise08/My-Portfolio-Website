@@ -247,12 +247,9 @@ footer {
 .contactme__item {
   list-style-type: none;
 }
-/*Work*/
 
-.grid__item {
-  display: inline-block;
-  width: 33%;
-}
+
+/*Work*/
 
 .grid {
   display: -ms-grid;
