@@ -249,7 +249,8 @@ footer {
 }
 /*Work*/
 
-.grid__item {
+/*grid fallback*/ 
+.grid{
   display: inline-block;
   width: 33%;
 }
