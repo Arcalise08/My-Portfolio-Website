@@ -111,6 +111,7 @@ button:hover {
 /*Navigation Menu*/
 
 .main-navigation {
+display: flex;
 margin: 0 auto;
 margin-right: 75px;
 }
@@ -119,6 +120,12 @@ margin-right: 75px;
   transition: 0.3s opacity;
   text-decoration: none;
 }
+
+.navigation-list__item, .navigation-list__item--active {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 
 .navigation-list__item:hover {
   opacity: 0.3;
@@ -131,16 +138,21 @@ margin-right: 75px;
 
 .navigation-list__item--active:visited {
   color: #ffffff;
-  width: 50%;
 }
 
 .navigation-list li {
-  display: inline-block;
+  flex-direction: row;
+  margin-left: 25px;
+  flex: 2 2 200px;
+  list-style-position: inside;
+  margin: 0 auto;
 
 }
 
 .navigation-list {
+  display: flex;
   list-style-type: none;
+  flex: 3 3 200px;
 }
 
 /*Mobile Navigation */
@@ -187,11 +199,11 @@ margin-right: 75px;
   background-color: rgba(136, 128, 117, 0.712);
   flex: 3 3 500px;
   color: rgb(255, 225, 168);
+  text-decoration: none;
 }
 .mobile-nav__item:visited {
   color: rgb(255, 225, 168);
 }
-
 
 
 .mobile-nav__item--active, .mobile-nav__item--active:visited  {
