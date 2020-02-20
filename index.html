@@ -2,7 +2,7 @@
 
 
 
-<html>
+<html lang="en">
 <head> 
 
     <meta charset="utf-8">
@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.production.css">
     <meta name="description" content="My First Website">
-    <script type="text/javascript"> 
+    <script> 
       function nolinked() {
         document.getElementById('1').style.visibility="visible";
         }
@@ -84,14 +84,12 @@ function required()
 
   </script>
   <div class="googlecontainer">
-    <p>
+    <label class="googlelabel" for="Ask">
       Ask me anything!
-    </p>
+    </label>
     <form action="http://www.google.com/search"  name="googleform" target="_blank" method="get">
-      <label for="Ask">
-      </label>
         <input class="google" type="text" id="Ask" name="q">
-        <button type="button" for="Ask" onclick="required()" >Ask</button>
+        <button type="button" onclick="required()" >Ask</button>
     </form>
   </div>
 </div>  

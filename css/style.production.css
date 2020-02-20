@@ -222,6 +222,10 @@ Colors used
         display: inline;
         text-align: center;
       }
+      .googlelabel {
+        margin: 0 auto;
+        margin-left: 40%;
+      }
       .google {
   
         font-family: inherit;
@@ -231,6 +235,7 @@ Colors used
         margin: 0 auto;
         margin-left: 5%;
         margin-bottom: 5%;
+        margin-top: 2%;
         }
   
         .profilepic {
