@@ -145,8 +145,6 @@ button:hover {
   max-width: 30%;
   height: 50%;
   min-height: 50px;
-  -webkit-filter: invert();
-  filter: invert();
 }
 
 .page-header {
@@ -190,8 +188,7 @@ footer {
 }
 
 .social-media {
-  -webkit-filter: invert();
-  filter: invert();
+  color: #fff;
 }
 /*Home*/
 
@@ -225,6 +222,10 @@ footer {
 .profile {
   max-width: 700px;
   margin: 0 auto;
+}
+
+.profiletext {
+  text-align: center;
 }
 
 /*Contact Me*/
