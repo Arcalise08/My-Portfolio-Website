@@ -79,7 +79,7 @@ body {
             /* selected link */
             color: var(--item-active-color);
 
-          }
+    }
 
     .button, button {
             /* overwrites browser defaults and resets the border */
